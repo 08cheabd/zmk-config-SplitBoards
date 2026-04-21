@@ -1,0 +1,5 @@
+config SHIELD_SPLITBOARDS_LEFT
+    def_bool $(shields_list_contains,SplitBoards_left)
+
+config SHIELD_SPLITBOARDS_RIGHT
+    def_bool $(shields_list_contains,SplitBoards_right)
